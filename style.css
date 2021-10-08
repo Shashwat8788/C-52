@@ -1,0 +1,96 @@
+h1{ 
+    color:rgb(255, 255, 255);
+    font-style:normal;
+    margin: 30px;
+    padding: 20px;
+}
+
+*{
+    font-style: italic;
+}
+
+.heading{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.heading *{
+    border: solid;
+}
+
+.menu{
+    display: flex;
+    justify-content: right;
+    color:rgb(255, 166, 0);
+    font-size: larger;
+    padding: 20px;
+}
+
+.discripetion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    background-color: #00ADB5;
+    color:#ffffff;
+}
+
+p,h2{
+    text-align: center;
+    font-style: italic;
+}
+
+.social{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+.games{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pic{
+    display:flex;
+    border:solid;
+}
+
+body{
+    background-color:#303841;
+}
+
+.menu a{
+    margin-right:25px;
+    padding:30px;
+}
+
+a:link{
+    color:#FF5722;
+}
+
+a:visited{
+    color:#00ADB5;
+}
+
+.items{
+    position: relative;
+}
+
+.items p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+
+.items:hover p{
+    opacity:1;
+}
+
+.items:hover img{
+    opacity: 01;
+}
